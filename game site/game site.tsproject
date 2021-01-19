@@ -1,12 +1,13 @@
 ﻿[project]
-type=TurboSite 1.6 project
-olddir=C:\Users\пк\Desktop\game site\
+type=TurboSite 1.7 project
+olddir=C:\Users\пк\AppData\Local\GitHubDesktop\app-2.5.5\all-games.flycricket.io\my-game\game site\
 themedirname=Conjuction
 Extension=html
 pagecount=0
 blockcount=0
 KeyWords=game, online game, download game, android game, pc game
 Description=сайт с онлайн играми, можно скачать
+SiteTitle=игровой сайт
 
 [FTP]
 Dir=/
