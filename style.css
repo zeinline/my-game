@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+}
+/*//////////////////////////////////////////////////////////////////////////*/
+
+header {
+	position: fixed;
+	min-height: 150px; width: 100%;
+	z-index: 3;
+
+	background: #000;
+}
+
+.header_icon {
+	padding-left: 17%;
+}
+
+.button_head {
+	height: 40px; width: 24%;
+	/*увеличить текст и выровнить кнопки*/
+}
+/*//////////////////////////////////////////////////////////////////////////*/
+
+body {
+	background: #93FD91;
+}
+
+._body {
+	min-height: 50px;
+	padding-top: 150px;
+	display: flex;
+}
+
+.win_l {
+	width: 20%;
+	background: #B6FF47;
+	padding: 10px;
+}
+
+.button_win_l {
+	height: 80px; width: 90%;
+	margin: 3px;
+}
+
+.win {
+	min-height: 800px; width: 60%;
+	background: #93FD91;
+	padding: 10px;
+}
+
+.icon_har_ki {
+	display: flex;
+}
+
+.icon_game {
+	height: 200px;
+}
+
+.har_ki {
+	margin: 5px;
+	/*увеличить размер текста*/
+}
+
+.opisanie_min {
+	margin: 5px;
+	padding-bottom: 10px;
+	/*увеличить размер текста*/
+}
+
+.screen_game {
+	height: 200px;
+}
+
+.opisanie_max {
+	margin: 5px;
+	/*увеличить размер текста*/
+}
+
+.win_r {
+	background: #B6FF47;
+	width: 20%;
+}
+/*//////////////////////////////////////////////////////////////////////////*/
+
+footer {
+	min-height: 122px;
+	background: url(image/footer.png)
+}
