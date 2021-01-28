@@ -17,12 +17,12 @@ header {
 
 .button_head {
 	height: 40px; width: 24%;
-	/*увеличить текст и выровнить кнопки*/
+	font-size: 25px;
 }
 /*//////////////////////////////////////////////////////////////////////////*/
 
 body {
-	background: #93FD91;
+	background: #5D00FF;
 }
 
 ._body {
@@ -33,18 +33,18 @@ body {
 
 .win_l {
 	width: 20%;
-	background: #B6FF47;
+	background: #99A1FF;
 	padding: 10px;
 }
 
 .button_win_l {
 	height: 80px; width: 90%;
 	margin: 3px;
+	font-size: 30px;
 }
 
 .win {
 	min-height: 800px; width: 60%;
-	background: #93FD91;
 	padding: 10px;
 }
 
@@ -58,31 +58,58 @@ body {
 
 .har_ki {
 	margin: 5px;
-	/*увеличить размер текста*/
+	font-size: 40px;
+}
+
+.play_button {
+	height: 50px; width: 150px;
+	margin-left: 300px; margin-top: 130px;
 }
 
 .opisanie_min {
-	margin: 5px;
+	margin: 50px;
 	padding-bottom: 10px;
-	/*увеличить размер текста*/
+	font-size: 30px;
 }
 
 .screen_game {
+	min-width: 200px;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+.screen_img {
 	height: 200px;
 }
 
 .opisanie_max {
-	margin: 5px;
-	/*увеличить размер текста*/
+	margin: 25px;
+	font-size: 30px;
 }
 
 .win_r {
-	background: #B6FF47;
+	background: #99A1FF;
 	width: 20%;
 }
 /*//////////////////////////////////////////////////////////////////////////*/
 
 footer {
 	min-height: 122px;
-	background: url(image/footer.png)
+	background: url(image/footer.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.text_footer {
+	color: white;
+}
+.text_footer#_1:hover {
+	color: #A3ADFF;
+}
+.text_footer#_2:hover {
+	color: #42B6FF;
+}
+.text_footer#_3:hover {
+	color: red;
 }
