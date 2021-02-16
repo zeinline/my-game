@@ -17,26 +17,31 @@
 
 	<div class="_body">
 			<div class="win_l">
-				<button class="button_win_l" onclick="buttonClick()">All Game</button><br>
-				<button class="button_win_l" onclick="buttonClick()">Zodiacs</button><br>
-				<button class="button_win_l" onclick="buttonClick()">игра 3</button>
+				<button class="button_win_l" onclick="bt_win_l(1)">All Game</button><br>
+				<button class="button_win_l" onclick="bt_win_l(2)">Zodiacs</button><br>
+				<button class="button_win_l" onclick="bt_win_l(3)">игра 3</button>
 			</div>
 
 			<div class="win">
 				<div class="icon_har_ki">
+
 					<div class="icon_game">
 						<img src="image/game1/icon.png" height="100%">
 					</div>
+
 					<div class="har_ki">
-						название<br>
-						версия<br>
-						вес
+						<h1 id="nameGame">название</h1>
+						<h2 id="versionGame">версия</h2>
+						<h2 id="sizeGame">вес</h2>
 					</div>
+
 					<button class="play_button" onclick="window.location.href = 'https://zeinline.github.io/storage/games/zodiacs/index.html';">играть</button>
 				</div>
+
 				<div class="opisanie_min">
 					множество игр собраны в одном компактном приложении
 				</div>
+
 				<div class="screen_game">
 					<img class="screen_img" src="image/game1/screen1.png">
 					<img class="screen_img" src="image/game1/screen2.png">
@@ -44,14 +49,16 @@
 					<img class="screen_img" src="image/game1/screen4.png">
 					<img class="screen_img" src="image/game1/screen5.png">
 				</div>
+
 				<div class="opisanie_max">
 					игра игра игра игра игра.
 				</div>
 			</div>
 
 			<div class="win_r">
-				тут ничего
+				<h1>тут ничего</h1>
 			</div>
+		</div>
 	</div>
 
 	<footer>
